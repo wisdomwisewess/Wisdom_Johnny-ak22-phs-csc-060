@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Johnny Wisdom Mboso - NetCentric Computing Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Johnny Wisdom Mboso</h1>
+  <p class="reg">Reg. No: AK22/PHS/CSC/060</p>
+  <p class="domain">Site address: <strong>jwmboso060.netlify.app</strong></p>
+</header>
+
+<main>
+  <section class="intro">
+    <p>This page links to the two NetCentric  assignments submitted below.
+    Use the buttons to switch between the two websites.</p>
+  </section>
+
+  <section class="nav-buttons">
+    <a class="site-btn" href="assignment1/home.html">Assignment 1<br><span>5-Page Website</span></a>
+    <a class="site-btn" href="assignment2/index.html">Assignment 2<br><span>Retail Store Website</span></a>
+  </section>
+
+  <section class="comment-section">
+    <h2>Lecturer's Comment</h2>
+    <p class="comment-note">Dr Anietie, please leave your comment/instruction below.</p>
+
+    <form id="commentForm">
+      <label for="commenterName">Name</label>
+      <input type="text" id="commenterName">
+
+      <label for="commentText">Comment</label>
+      <textarea id="commentText" rows="4" placeholder="Type your comment or instructions here..." required></textarea>
+
+      <button type="submit">Submit Comment</button>
+      <span id="formStatus" class="form-status"></span>
+    </form>
+
+    <div id="commentList" class="comment-list"></div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Johnny Wisdom Mboso | AK22/PHS/CSC/060 | NetCentric Computing Assignment</p>
+</footer>
+
+<script src="comments.js"></script>
+</body>
+</html>
