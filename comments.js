@@ -8,7 +8,7 @@
 // replace YOUR_FORM_ID below with the ID Formspree gives you
 // (it looks like https://formspree.io/f/abcdwxyz -> ID is "abcdwxyz").
 
-var FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+var FORMSPREE_ENDPOINT = "https://formspree.io/f/xwvgvvbv";
 var STORAGE_KEY = "netcentric_jwmboso060_comments";
 
 function loadComments() {
